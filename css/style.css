@@ -24,6 +24,7 @@ h1 {
 	align-items: center;
 	gap: 0.4rem;
 	margin-bottom: 1.2rem;
+	justify-content: center;
 }
 
 input {
@@ -42,4 +43,26 @@ input {
 	font-weight: bold;
 	font-size: 1.2rem;
 	border: none;
+	cursor: pointer;
+}
+
+ul {
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.8rem;
+}
+
+.edit-btn,
+.delete-btn {
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.delete-btn {
+	color: rgb(143, 0, 0);
+	margin-left: 0.4rem;
 }
